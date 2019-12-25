@@ -1,4 +1,4 @@
-#radix sort
+#radix sort: ascending order
 
 def sortr(L):
         sorted_list=list(L)
