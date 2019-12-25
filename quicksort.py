@@ -47,11 +47,3 @@ def quick_sort(u,ini,fin):
                 quick_sort(u,ini,pIndex-1)
                 quick_sort(u,pIndex+1,fin)
         return True
-
-
-#u=[0,2,5,3,4,7,8]
-#z=[12,1435,48,14,92,432]
-#alist = [54,26,93,17,77,31,44,55,20]
-#y=[12435,61542,356847,23,6,1,3,5,8,3]
-#quick_sort(y,0,9)
-#print(y)
