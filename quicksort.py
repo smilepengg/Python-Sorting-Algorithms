@@ -1,4 +1,5 @@
 #quick sort: first argument is the list, the second argument is the initial position, and the third argument is the final position of the list that is being sorted
+#list is sorted in ascending order!
 
 #partition function (quick sort help)
 def partition(u,ini,fin):
