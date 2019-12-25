@@ -29,8 +29,3 @@ def sortr(L):
                 modulo=modulo*10
                 divide=divide*10
         return sorted_list
-
-
-
-L=[3,56,8,3356,378,9,1,3,9,3,4,56,765342,1]
-print(sortr(L))
