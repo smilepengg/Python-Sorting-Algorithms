@@ -39,10 +39,13 @@ def heapify(u):
 
 #function that will restore the max heap structure (ex: needed when an item is removed from the heap, etc)
 def reheapify(u,end):
+        #copying over original list
         store=list(u)
+        #"removing" first value of the heap and then moving the last value of the heap to the top of the heap
         temp=store[0]
         store[0]=store[end]
         store=store[0:end]
+        #restoring the heap structure since it was just modified with the previous swapping
         heapify(store)
         for i in range(0,len(store),1):
                 u[i]=store[i]
