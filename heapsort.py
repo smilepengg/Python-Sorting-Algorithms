@@ -1,6 +1,6 @@
-#heap sort:ascending order
+#heap sort: ascending order
 
-#max heapify since a max heap is needed to sort in ascending order. parameter (u) is a list.
+#max heapify-->max heap is needed to sort in ascending order. parameter (u) is a list.
 def heapify(u):
         cnt=0
         #defining the limit variable. the limit variable is the number of levels in the heap/tree structure
